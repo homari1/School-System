@@ -1,0 +1,2 @@
+SELECT FirstName , CourseName, Grade FROM student join enrollment on student.studentid = enrollment.StudentID 
+join section on section.sectionid = enrollment.SectionNum join course on section.CourseID = course.courseid;
